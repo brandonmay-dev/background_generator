@@ -1,0 +1,32 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "A simple gradient background generator with live previews, color inputs, a randomizer button, and instant CSS output built with lightweight HTML, CSS, and JavaScript.",
+  "keywords": [
+    "gradient",
+    "background-generator",
+    "css-gradient",
+    "linear-gradient",
+    "frontend",
+    "html",
+    "css",
+    "javascript",
+    "ui-tool",
+    "web-tool",
+    "design-utility",
+    "responsive",
+    "color-picker",
+    "visual-tool"
+  ],
+  "homepage": "https://github.com/brandonmay-dev/background_generator#readme",
+  "bugs": {
+    "url": "https://github.com/brandonmay-dev/background_generator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonmay-dev/background_generator.git"
+  },
+  "license": "ISC",
+  "author": "Brandon May",
+  "type": "commonjs"
+}
