@@ -8,28 +8,33 @@ body {
 }
 
 h1 {
-  font: 600 clamp(1.4em, 6vw, 3.5em) "Raleway", sans-serif;
-  margin: 0 auto;
-  margin-top: 2rem;
-  text-align: center;
+  font:
+    600 clamp(1.2em, 5.5vw, 3.5em) "Raleway",
+    sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  white-space: nowrap;
   text-align: center;
   padding: 0 1rem;
+
+  white-space: normal; /* allow wrapping */
+  word-break: keep-all; /* never break words */
+  overflow-wrap: normal; /* wrap only at spaces */
 }
 
 h2 {
-  font: 600 clamp(1em, 4vw, 1.5em) "Raleway", sans-serif;
+  font:
+    600 clamp(1em, 4vw, 1.5em) "Raleway",
+    sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   white-space: nowrap;
   text-align: center;
 }
 
-
 h3 {
-  font: 900 21m "Raleway", sans-serif;
+  font:
+    900 21m "Raleway",
+    sans-serif;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
   text-transform: none;
@@ -45,7 +50,9 @@ h3 {
   backdrop-filter: blur(8px);
   color: white;
   text-transform: uppercase;
-  font: 600 0.9em "Raleway", sans-serif;
+  font:
+    600 0.9em "Raleway",
+    sans-serif;
   cursor: pointer;
   transition: 0.3s;
 }
